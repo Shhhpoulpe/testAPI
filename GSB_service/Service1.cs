@@ -9,12 +9,49 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace GSB_service
+namespace GSBservice
 {
     public partial class Service1 : ServiceBase
     {
         private ConnexionSql BDD;
-        private GestionDate date;
+
+        System.DateTime date = DateTime.Now;
+
+        public int getMonth()
+        {
+            return date.Month;
+        }
+
+        public int getLastMonth()
+        {
+            if (date.Month - 1 != 0)
+            {
+                return date.Month - 1;
+            }
+            else
+            {
+                return 12;
+            }
+        }
+
+        public int getDay()
+        {
+            return date.Day;
+        }
+
+        public int getYear()
+        {
+            if (getLastMonth() != 12)
+            {
+                return date.Year;
+            }
+            else
+            {
+                return date.Year - 1;
+            }
+
+        }
+
         public Service1()
         {
             InitializeComponent();
@@ -33,10 +70,10 @@ namespace GSB_service
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            string mois = date.getYear().ToString() + date.getLastMonth().ToString("00");
+            string mois = getYear().ToString() + getLastMonth().ToString("00");
 
 
-            if (date.getDay() >= 20)
+            if (getDay() >= 20)
             {
 
                 MySqlCommand commande = BDD.reqExec("update fichefrais set idEtat = 'RB' where idEtat = 'CL' AND mois='" + mois + "' ");
@@ -45,7 +82,7 @@ namespace GSB_service
 
             }
 
-            if (date.getDay() <= 10)
+            if (getDay() <= 10)
             {
 
                 MySqlCommand commande = BDD.reqExec("update fichefrais set idEtat = 'CL' where mois= '" + mois + "' ");

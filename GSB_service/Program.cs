@@ -5,7 +5,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSB_service
+namespace GSBservice
 {
     static class Program
     {

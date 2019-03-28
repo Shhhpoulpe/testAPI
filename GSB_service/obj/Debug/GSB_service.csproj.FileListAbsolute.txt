@@ -5,7 +5,6 @@ C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\bin\Debug\Google.Pr
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\bin\Debug\MySql.Data.dll
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\bin\Debug\Google.Protobuf.xml
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\bin\Debug\MySql.Data.xml
-C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.csprojAssemblyReference.cache
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.ProjectInstaller.resources
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.Service1.resources
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.csproj.GenerateResource.cache
@@ -13,3 +12,4 @@ C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_servi
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.csproj.CopyComplete
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB service.exe
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB service.pdb
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB_service.csprojAssemblyReference.cache

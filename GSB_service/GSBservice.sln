@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSB_service", "GSB_service.csproj", "{7CB576CB-F35E-445D-B22B-87A654074D7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSBservice", "GSBservice.csproj", "{7CB576CB-F35E-445D-B22B-87A654074D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaire", "..\TestUnitaire\TestUnitaire.csproj", "{294C50C5-5DA1-458B-B061-3B6A71527B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7CB576CB-F35E-445D-B22B-87A654074D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CB576CB-F35E-445D-B22B-87A654074D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CB576CB-F35E-445D-B22B-87A654074D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294C50C5-5DA1-458B-B061-3B6A71527B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294C50C5-5DA1-458B-B061-3B6A71527B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294C50C5-5DA1-458B-B061-3B6A71527B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294C50C5-5DA1-458B-B061-3B6A71527B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

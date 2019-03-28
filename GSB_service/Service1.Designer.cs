@@ -1,4 +1,4 @@
-﻿namespace GSB_service
+﻿namespace GSBservice
 {
     partial class Service1
     {
@@ -33,6 +33,7 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Interval = 20000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 

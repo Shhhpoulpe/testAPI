@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSB_service
+namespace GSBservice
 {
     class GestionDate
     {
         System.DateTime date = DateTime.Now;
+
+        public GestionDate(DateTime date)
+        {
+            this.date = date;
+        }
 
         public int getMonth()
         {
