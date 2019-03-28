@@ -1,0 +1,14 @@
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\GSB service.exe.config
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\GSB service.exe
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\GSB service.pdb
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\Google.Protobuf.dll
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\MySql.Data.dll
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\Google.Protobuf.xml
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\bin\Release\MySql.Data.xml
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB_service.ProjectInstaller.resources
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB_service.Service1.resources
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB_service.csproj.GenerateResource.cache
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB_service.csproj.CoreCompileInputs.cache
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB_service.csproj.CopyComplete
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB service.exe
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB service\GSB service\obj\Release\GSB service.pdb
