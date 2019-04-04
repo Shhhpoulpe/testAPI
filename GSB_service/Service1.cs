@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.ServiceProcess;
 using System.Text;
@@ -55,13 +56,14 @@ namespace GSBservice
         public Service1()
         {
             InitializeComponent();
-        }
 
-        protected override void OnStart(string[] args)
-        {
             this.BDD = ConnexionSql.getInstance("localhost", "gsb", "root", "");
 
             BDD.openConnection();
+        }
+
+        protected override void OnStart(string[] args)
+        {        
         }
 
         protected override void OnStop()
@@ -72,10 +74,9 @@ namespace GSBservice
         {
             string mois = getYear().ToString() + getLastMonth().ToString("00");
 
-
             if (getDay() >= 20)
             {
-
+                
                 MySqlCommand commande = BDD.reqExec("update fichefrais set idEtat = 'RB' where idEtat = 'CL' AND mois='" + mois + "' ");
 
                 commande.ExecuteNonQuery();
@@ -90,6 +91,16 @@ namespace GSBservice
                 commande.ExecuteNonQuery();
 
             }
+        }
+
+        private void eventLog2_EntryWritten(object sender, EntryWrittenEventArgs e)
+        {
+
+        }
+
+        private void eventLog1_EntryWritten(object sender, EntryWrittenEventArgs e)
+        {
+
         }
     }
 }
