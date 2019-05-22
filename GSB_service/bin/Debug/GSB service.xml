@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GSB service</name>
+    </assembly>
+    <members>
+        <member name="M:GSBservice.ConnexionSql.getInstance(System.String,System.String,System.String,System.String)">
+            méthode de création d'une instance de connexion si elle n'existe pas (singleton)
+        </member>
+        <member name="M:GSBservice.ConnexionSql.openConnection">
+            Ouverture de la connexion
+        </member>
+        <member name="M:GSBservice.ConnexionSql.closeConnection">
+            Fermeture de la connexion
+        </member>
+        <member name="M:GSBservice.ConnexionSql.reqExec(System.String)">
+            Exécutiuon d'une requête
+        </member>
+        <member name="M:GSBservice.GestionDate.#ctor">
+            Création de l'objet GestionDate
+        </member>
+        <member name="M:GSBservice.GestionDate.getMonth">
+            Retourne le mois
+        </member>
+        <member name="M:GSBservice.GestionDate.getLastMonth">
+            Retourne le mois dernier
+        </member>
+        <member name="M:GSBservice.GestionDate.getDay">
+            Retourne le jour
+        </member>
+        <member name="M:GSBservice.GestionDate.getYear">
+            Retourne l'année précédente
+        </member>
+        <member name="F:GSBservice.ProjectInstaller.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:GSBservice.ProjectInstaller.Dispose(System.Boolean)">
+            <summary> 
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:GSBservice.ProjectInstaller.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="F:GSBservice.Service1.components">
+            <summary> 
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:GSBservice.Service1.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:GSBservice.Service1.InitializeComponent">
+            <summary> 
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas 
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="M:GSBservice.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+    </members>
+</doc>

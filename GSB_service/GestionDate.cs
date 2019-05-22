@@ -10,15 +10,26 @@ namespace GSBservice
     {
         System.DateTime date = DateTime.Now;
 
-        public GestionDate(DateTime date)
+        /**
+         * Création de l'objet GestionDate
+         */
+        public GestionDate()
         {
-            this.date = date;
+            this.date = DateTime.Now;
         }
+
+        /**
+         * Retourne le mois
+         */
 
         public int getMonth()
         {
             return date.Month;
         }
+
+        /**
+         * Retourne le mois dernier
+         */
 
         public int getLastMonth()
         {
@@ -32,10 +43,18 @@ namespace GSBservice
             }
         }
 
+        /**
+         * Retourne le jour
+         */
+
         public int getDay()
         {
             return date.Day;
         }
+
+        /**
+         * Retourne l'année précédente
+         */
 
         public int getYear()
         {

@@ -16,42 +16,7 @@ namespace GSBservice
     {
         private ConnexionSql BDD;
 
-        System.DateTime date = DateTime.Now;
-
-        public int getMonth()
-        {
-            return date.Month;
-        }
-
-        public int getLastMonth()
-        {
-            if (date.Month - 1 != 0)
-            {
-                return date.Month - 1;
-            }
-            else
-            {
-                return 12;
-            }
-        }
-
-        public int getDay()
-        {
-            return date.Day;
-        }
-
-        public int getYear()
-        {
-            if (getLastMonth() != 12)
-            {
-                return date.Year;
-            }
-            else
-            {
-                return date.Year - 1;
-            }
-
-        }
+        GestionDate date = new GestionDate();
 
         public Service1()
         {
@@ -72,9 +37,9 @@ namespace GSBservice
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            string mois = getYear().ToString() + getLastMonth().ToString("00");
+            string mois = date.getYear().ToString() + date.getLastMonth().ToString("00");
 
-            if (getDay() >= 20)
+            if (date.getDay() >= 20)
             {
                 
                 MySqlCommand commande = BDD.reqExec("update fichefrais set idEtat = 'RB' where idEtat = 'CL' AND mois='" + mois + "' ");
@@ -83,7 +48,7 @@ namespace GSBservice
 
             }
 
-            if (getDay() <= 10)
+            if (date.getDay() <= 10)
             {
 
                 MySqlCommand commande = BDD.reqExec("update fichefrais set idEtat = 'CL' where mois= '" + mois + "' ");

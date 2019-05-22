@@ -12,3 +12,5 @@ C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSBservic
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSBservice.csproj.CopyComplete
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB service.exe
 C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSB service.pdb
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\obj\Debug\GSBservice.csprojAssemblyReference.cache
+C:\Users\maxjo\OneDrive\Bureau\GSBC#\GSB_service\GSB_service\bin\Debug\GSB service.xml
